@@ -1,0 +1,72 @@
+import java.util.Scanner;
+class amazonpayment
+{
+public void payment()
+{
+System.out.println("payment done");
+}
+public void payment(String upi)
+{
+System.out.println("payment done via upi");
+}
+public void payment(long cardno, int cvv)
+{
+System.out.println("payment done using card");
+} 
+public void payment(String username,String password)
+{
+System.out.println("payment done via internet banking");
+}
+}
+
+class AmazonPay
+{
+	public static void main(String [] args)
+	{
+		Scanner scn = new Scanner(System.in);
+		amazonpayment a1 = new amazonpayment();
+		System.out.println("enter choice");
+		int choice = scn.nextInt();
+		System.out.println("1.payment done/n2.payment done via upi/n3.payment done via card/n4.payment done via internet banking");
+		switch(choice)
+		{
+			case 1 :
+			System.out.println("payment done via cash on deliver");
+			a1.payment();
+			break;
+			case 2:
+			System.out.println("enter upi id");
+			String upi = scn.next();
+			a1.payment(upi);
+			break;
+			case 3 :
+			System.out.println("enter card no and cvv");
+			long cardno = scn.nextLong();
+			int cvv = scn.nextInt();
+			a1.payment(cardno,cvv);
+			break;
+			case 4 :
+			System.out.println("enter username and password");
+			String username = scn.next();
+			if(username.length()> 5)
+			{
+				System.out.println("username = " + username);
+				
+			}
+			else 
+			{
+				System.out.println("username is short");
+			}
+			String password = scn.next();
+			a1.payment(username,password);
+			break;
+			default:
+			System.out.println("invalid choice");
+		}
+			
+			
+		
+	}
+	
+	
+}
