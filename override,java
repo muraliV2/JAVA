@@ -1,0 +1,53 @@
+class parent
+{
+public void place()
+{
+System.out.println("kerela");
+
+}
+public void travel()
+{
+System.out.println("train");
+}
+public void stay()
+{
+System.out.println("lodge");
+}
+}
+
+class children extends parent
+{
+@Override
+public void place()
+{
+System.out.println("goa");
+
+}
+public void travel()
+{
+System.out.println("car");
+}
+public void stay()
+{
+System.out.println("clubhouse");
+}
+}
+
+class parent12
+{
+	public static void main(String [] args)
+	{
+		children c1 = new children();
+		c1.place();
+		c1.travel();
+		c1.stay();
+		System.out.println("----------------------------------");
+		System.out.println("----------------------------------");
+		parent p1 = new parent();
+		p1.place();
+		p1.travel();
+		p1.stay();
+		
+	}
+	
+}
