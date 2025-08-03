@@ -1,0 +1,57 @@
+//package this1;
+class qw 
+{
+public qw()
+{
+System.out.println("hi");	
+}
+public qw(int x,int y)
+{
+	this();
+System.out.println("hi");
+System.out.println(x);
+System.out.println(y);
+}
+public qw(int x,double y)
+{
+	this(10,20);
+System.out.println("hi");
+System.out.println(x);
+System.out.println(y);
+}
+
+}
+
+
+//package this1;
+
+class er extends qw
+{
+	public er()
+	{
+		super(10,69.345);
+		System.out.println(" hi er");
+	}
+	public er(int x,String y)
+	{
+		this();
+		System.out.println(x);
+		System.out.println(y);
+	}
+	public er(int x,int y)
+	{
+		this(20,"palmer");
+		System.out.println(x);
+		System.out.println(y);
+	}
+}
+
+//package this1;
+class main 
+{
+ public static void main(String [] args)
+ {
+	 System.out.println("hi mainclass");
+	 er e1 = new er(20,50);
+ }
+}
