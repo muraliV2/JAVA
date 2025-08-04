@@ -1,0 +1,60 @@
+package abstractclass;
+abstract public class remotev1 
+{
+public static void power()
+{
+System.out.println("power on");
+}
+public static void channel()
+{
+System.out.println("channel changed");
+}
+public static void volume()
+{
+System.out.println("volume up/down");
+}
+abstract public  void record();
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+package abstractclass;
+public class remotev2 extends remotev1
+{
+public static void home()
+{
+	System.out.println("enter home");
+	}
+public  void record()
+{
+	System.out.println("record updated");
+	}
+}
+
+
+
+package abstractclass;
+public class mainclass 
+{
+public static void main(String [] args)
+{
+	System.out.println("result");
+	remotev2 r2 = new remotev2();
+	r2.power();
+	r2.channel();
+	r2.volume();
+	r2.record();
+	r2.home();
+}
+}
+
