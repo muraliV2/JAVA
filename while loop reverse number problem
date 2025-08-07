@@ -1,0 +1,27 @@
+package loops;
+import java.util.Scanner;
+public class a 
+{
+public static void main(String [] args)
+{
+	Scanner scn = new Scanner(System.in);
+			System.out.println("enter num");
+	int num = scn.nextInt();
+int rem =0;
+int count= 0;
+int rev =0;
+int copy = num;
+while(num>0)
+{
+	
+	rem = num%10;
+	rev = rev*10 +rem;
+	
+
+
+	num = num/10;
+	
+}
+System.out.println(rev);
+}
+}
