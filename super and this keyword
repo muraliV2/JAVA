@@ -1,0 +1,39 @@
+package superkey;
+
+public class a 
+{
+public a()
+{
+    this(10,"messi");
+	System.out.println("hi a");	
+}
+public a(int x ,String y)
+{  
+	System.out.println(x);
+System.out.println(y);
+System.out.println("hi 2 arguement a");
+}
+public a(int x,double y,String z)
+{
+   this();
+	System.out.println(x);
+	System.out.println(y);
+	System.out.println(z);
+	System.out.println("hi 3 arguement a");
+}
+}
+
+
+
+
+package superkey;
+
+public class mainmethod 
+{
+public static void main(String [] args)
+{
+System.out.println("----output------");
+b b1 = new b(66,"trent arnold");
+	
+}
+}
