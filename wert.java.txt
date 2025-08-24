@@ -1,0 +1,13 @@
+class wert
+{
+	public static void main(String [] args)
+	{
+		private int a = 100;
+		public void demo()
+		{
+			System.out.println("hi demo");
+			System.out.println("a =" +a );
+		}
+	}
+	
+}
