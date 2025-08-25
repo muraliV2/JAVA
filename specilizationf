@@ -1,0 +1,100 @@
+package specialization4;
+
+ abstract public class vehicle 
+{
+abstract public void start();
+abstract public void stop();
+}
+
+package specialization4;
+
+public class bike extends vehicle{
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		System.out.println("BIKE is starting");
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		System.out.println("bike is stopping");
+	}
+	public void topspeed()
+	{
+		System.out.println("200 kmph");
+		
+	}
+
+}
+
+package specialization4;
+
+public class car extends vehicle
+{
+	public void start() {
+		System.out.println("car is starting");
+	}
+
+	public void stop() {
+		System.out.println("car is stopping");
+		
+	}
+
+}
+
+package specialization4;
+
+public class van extends vehicle{
+
+	@Override
+	public void start() 
+	{
+		
+		System.out.println("van is starting");
+	}
+
+	public void stop() {
+		
+		System.out.println("van is stopping");
+	}
+
+}
+
+package specialization4;
+
+public class helper
+{
+public void display(bike b)
+{
+b.start();
+b.stop();
+b.topspeed();
+}
+public void display(car c)
+{
+c.start();
+c.stop();
+}
+public void display(van v)
+{
+v.start();
+v.stop();
+}
+
+}
+package specialization4;
+
+public class mainmethod 
+{
+public static void main(String [] args)
+{
+	helper h = new helper();
+	h.display(new bike());
+	h.display(new car());
+
+}
+}
+
+
