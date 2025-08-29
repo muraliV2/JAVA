@@ -1,0 +1,71 @@
+package travelagency;
+
+public class travel {
+String location;
+int cost;
+String duration;
+public travel(String location,int cost,String duration)
+{
+this.location = location;
+this.cost = cost;
+this.duration = duration;
+}
+public void agency()
+{
+System.out.println(location);
+System.out.println(cost);
+System.out.println(duration);
+System.out.println("----------------------");
+}
+}
+
+package travelagency;
+
+public class paris extends travel
+{
+public paris(String location,int cost,String duration)
+{
+package travelagency;
+
+public class dubai extends travel 
+{
+	public dubai(String location,int cost,String duration)
+	{
+	super(location,cost,duration);	
+	}
+}
+
+super(location,cost,duration);	
+}
+}
+
+package travelagency;
+
+public class maldives extends travel
+{
+	public maldives(String location,int cost,String duration)
+	{
+	super(location,cost,duration);	
+	}
+}
+
+package travelagency;
+
+public class main 
+{
+public static void main(String [] args)
+{
+paris p = new paris("famous for eiffel tower",120000,"7 days");
+dubai d = new dubai("famous for burj khalifa",170500,"14 days");
+maldives m = new maldives("famous for beaches",154000,"9 days");
+p.agency();
+d.agency();
+m.agency();
+
+
+}
+}
+
+
+
+
