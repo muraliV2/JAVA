@@ -1,0 +1,85 @@
+package travel1;
+
+public class travel 
+{
+String location;
+int cost;
+String duration;
+public travel(String location,int cost,String duration)
+{
+	this.location = location;
+	this.cost = cost;
+	this.duration = duration;
+}
+}
+
+package travel1;
+
+public class paris extends travel 
+{
+public paris(String location,int cost,String duration)
+{
+	super(location,cost,duration);
+}
+}
+package travel1;
+
+public class dubai extends travel
+{
+	public dubai(String location,int cost,String duration)
+	{
+		super(location,cost,duration);
+	}
+}
+package travel1;
+
+public class maldives extends travel
+{
+	public maldives(String location,int cost,String duration)
+	{
+		super(location,cost,duration);
+	}
+}
+package travel1;
+
+public class help 
+{
+public void process(travel t )
+{
+	if(t instanceof paris)
+	{
+		paris p =(paris)t;
+		System.out.println(p.location);
+		System.out.println(p.cost);
+		System.out.println(p.duration);
+	}
+	else if(t instanceof dubai)
+	{
+		dubai d =(dubai)t;
+		System.out.println(t.location);
+		System.out.println(t.cost);
+		System.out.println(t.duration);
+	}
+	else
+	{
+	maldives m =(maldives)t;
+	System.out.println(m.location);
+	System.out.println(m.cost);
+	System.out.println(m.duration);
+	}
+
+}
+}
+package travel1;
+
+public class main 
+{
+public static void main(String [] args)
+{
+System.out.println("------------------------");	
+help h = new help();
+h.process(new paris("famous for eiffel tower",120000,"7 days"));
+h.process(new dubai("famous for burj khalifa",170500,"14 days"));
+h.process(new maldives("famous for beaches",154000,"9 days"));
+}
+}
