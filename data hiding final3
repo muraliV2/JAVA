@@ -1,0 +1,52 @@
+package bike;
+
+public class bike 
+{
+String company;
+int cc;
+int topspeed;
+
+public bike(String company,int cc,int topspeed)
+{
+this.company=company;
+this.cc = cc;
+this.topspeed = topspeed;
+
+}
+public String getcompany()
+		{
+	return company;
+		}
+public int getcc()
+{
+return cc;	
+}
+public int gettopspeed()
+{
+return	topspeed;
+}
+public void setcompany(String company)
+{
+this.company = company;	
+}
+}
+
+package bike;
+
+public class main 
+{
+public static void main(String [] args)
+{
+System.out.println("--------result-------------");
+bike b = new bike("himalayan",411,140);
+System.out.println(b.getcompany());
+System.out.println(b.getcc());
+System.out.println(b.gettopspeed());
+b.setcompany("interceptor");
+System.out.println("after reinitilization ");
+System.out.println(b.getcompany());
+System.out.println(b.getcc());
+System.out.println(b.gettopspeed());
+
+}
+}
