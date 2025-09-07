@@ -1,0 +1,15 @@
+package exception1;
+
+public class nullpointerexception 
+{
+public static void main(String [] args)
+{
+int[] arr1 = null;
+System.out.println(arr1[0]);
+}
+}
+
+
+output
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	at exception1.arrayindexoutofboundry.main(arrayindexoutofboundry.java:10)
