@@ -1,0 +1,47 @@
+package typecasting;
+
+public class a 
+{
+public void test()
+{
+System.out.println("hi a");	
+}
+}
+
+package typecasting;
+
+public class b extends a
+{
+public void test1()
+{
+System.out.println("hi b");	
+}
+}
+
+package typecasting;
+
+public class c extends b
+{
+public void test2()
+{
+System.out.println("hi c");	
+}
+}
+
+package typecasting;
+
+public class mainmethod 
+{
+public static void main(String [] args)
+{
+System.out.println("result");
+a a1 = new c();
+b b1 =(b)a1;
+c c1 = (c) b1;
+b1.test();
+b1.test1();
+c1.test();
+c1.test1();
+c1.test2();
+}
+}
