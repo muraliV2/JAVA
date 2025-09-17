@@ -15,3 +15,4 @@ FileOutputStream f = new FileOutputStream("C:\\Users\\mural\\OneDrive\\Desktop\\
 ObjectOutputStream oos = new ObjectOutputStream(f);
 oos.writeObject(a1);
 System.out.println("serilization done");
+}}
