@@ -1,5 +1,28 @@
 package customisedexception;
 
+public class EvenNumberException extends RuntimeException
+{
+public EvenNumberException(String message)
+{
+super(message)	;
+}
+}
+
+
+package customisedexception;
+
+public class NotAnEvenNumberException extends RuntimeException 
+{
+public NotAnEvenNumberException(String message)
+{
+super(message);	
+}
+}
+
+
+
+package customisedexception;
+
 import java.util.Scanner;
 
 public class mainmethod {
