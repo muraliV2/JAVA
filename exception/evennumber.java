@@ -32,3 +32,14 @@ super(message)	;
 }
 }
 
+
+package customisedexception;
+
+public class NotAnEvenNumberException extends RuntimeException 
+{
+public NotAnEvenNumberException(String message)
+{
+super(message);	
+}
+}
+
