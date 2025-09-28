@@ -13,3 +13,6 @@ System.out.println("auto unboxing");
 
 }
 }
+
+providing primitive  data to object is called boxing 
+  if it is automatically done by compiler it is called autoboxing
