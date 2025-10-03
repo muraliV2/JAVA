@@ -33,7 +33,6 @@ public class mainmethod
 {
 public static void main(String [] args)
 {
-bike b1 = new car();
 car c1 =(car) b1;
 c1.cc();
 c1.color();
@@ -43,3 +42,4 @@ c1.color2();
 }
 }
 
+here i downcast directly without doing upcasting so here classcastexception takesplace
