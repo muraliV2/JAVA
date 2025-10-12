@@ -23,3 +23,6 @@ System.out.println(c+" ");
 //System.out.println(Arrays.toString(objArray));
 }
 }
+
+in this we have created an character array
+  so we can store only one datatype it is called as storing list in an primitive array
