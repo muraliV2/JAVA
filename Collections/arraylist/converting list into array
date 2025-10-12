@@ -19,3 +19,5 @@ System.out.println(Arrays.toString(intArray));
 
 }
 }
+
+in this method we are converting only one type so we need to mention the type of datatype while creating the list
