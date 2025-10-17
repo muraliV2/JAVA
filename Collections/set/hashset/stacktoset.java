@@ -22,6 +22,7 @@ list.add(70);
 list.add(80);	
 list.add(90);	
 list.add(100);	
+list.push(200);
 
 System.out.println(list);
 
