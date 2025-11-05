@@ -16,14 +16,17 @@ Map< Character, Integer> map = new LinkedHashMap<Character, Integer>();
 
 for(char c : str.toCharArray())
 {
+	if(c != ' ')
+	{
 	
 map.put(c, map.getOrDefault(c, 0)+1);
+	}
 }
 for(Map.Entry<Character, Integer> entry : map.entrySet())
 {
 if(entry.getValue()>1)
 {
-System.out.println(entry.getKey());
+System.out.println(entry.getKey() + " " + entry.getValue());
 }
 }
 {
