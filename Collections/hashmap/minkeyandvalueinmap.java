@@ -17,18 +17,18 @@ map.put(numb, map.getOrDefault(numb, 0)+1);
 
 
 }
-int max = 0;
-int maxarr = ' ';
+int min = Integer.MAX_VALUE;
+int minarr = ' ';
 for(Map.Entry<Integer, Integer> entry : map.entrySet() )
 {
-if(entry.getValue() > max)
+if(entry.getValue() < min)
 {
-max = entry.getValue();
-maxarr = entry.getKey();
+min = entry.getValue();
+minarr = entry.getKey();
 }
 }
-System.out.println(max);
-System.out.println(maxarr);
+System.out.println(min);
+System.out.println(minarr);
 
 }
 }
