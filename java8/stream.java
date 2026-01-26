@@ -19,3 +19,6 @@ Stream<Integer> str = li.stream();
 str.forEach(n ->  System.out.println(n));
 }
 }
+
+
+we use stream in java to control the flow of data one by one
