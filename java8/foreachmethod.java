@@ -25,6 +25,6 @@ public static void main(String [] main)
 			System.out.println(t);
 		};
 	
-	lis.forEach(con);
+	 lis.forEach(con);
 }
 }
