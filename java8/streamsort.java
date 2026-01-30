@@ -33,7 +33,7 @@ Stream<Integer> data2 = data.sorted();
 data2.forEach(n -> System.out.println(n * 2));
 
 
-//Stream<Integer> str = li.stream();
+//Stream<Inte ger> str = li.stream();
 //
 //
 //
