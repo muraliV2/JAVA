@@ -16,7 +16,7 @@ Stream<Integer> str = li.stream();
 
 
 
-str.forEach(n ->  System.out.println(n));
+str.forEach(n ->  System.out.println(n)); 
 }
 }
 
