@@ -9,7 +9,7 @@ public class clashroyale  extends games{
 	}
 
 	@Override
-	public void noofplayers() {
+	public void noobplayers() {
 		System.out.println("2v2");
 		
 	}
