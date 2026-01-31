@@ -16,7 +16,7 @@ public class clashroyale  extends games{
 
 	@Override
 	public void famousplay() {
-		System.out.println("prathish jod & sailesh");
+		System.out.println("prathish jod & sailesh jod");
 		
 	}
 
