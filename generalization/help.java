@@ -5,7 +5,7 @@ public class help
 public void get(games g)
 {
 g.name();
-g.noofplayers();
+g.noobplayers();
 g.famousplay();
 }
 
