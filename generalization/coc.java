@@ -9,7 +9,7 @@ public class coc extends games{
 	}
 
 	@Override
-	public void noofplayers() {
+	public void noobplayers() {
 		System.out.println("1v100");
 		
 	}
