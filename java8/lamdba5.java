@@ -5,7 +5,6 @@ public interface thetre
 int view (int i,int j);
 }
 
-
 package java8;
 
 public class adf implements thetre {
