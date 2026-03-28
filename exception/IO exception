@@ -8,7 +8,7 @@ try
 {
 throw new IOException("input/output exception");	
 }
-catch(IOException e )
+catch(IOException e)
 {
 System.out.println(e.toString());	
 }
