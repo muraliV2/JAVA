@@ -14,7 +14,6 @@ for(int o :arr)
 {
 	list.add(o);	
 }
-
 Collections.sort(list);
 
 System.out.println(list);
