@@ -9,7 +9,6 @@ int x = scn.nextInt();
 int copy = x;
 int rem = 0;
 int rev = 0;
-
 while(x>0)
 {
 rem = x%10;
