@@ -11,7 +11,6 @@ list.add('a');
 list.add('b');
 list.add('c');
 System.out.println("convert list into object array");
-
 Character[] objArray = new Character[list.size()];
 list.toArray(objArray);
 for(Character c : objArray)
