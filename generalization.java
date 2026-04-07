@@ -34,9 +34,8 @@ public class asus extends laptop
 
 	@Override
 	public void storage() {
-		System.out.println("1tb storage");
-		
-	}
+		System.out.println("1tb storage");		
+}
 
 }
 
