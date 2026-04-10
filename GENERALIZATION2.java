@@ -40,8 +40,6 @@ public class iphone implements smartphone
 		System.out.println("15 hours");
 	}
 	}
-
-
 package smartphone;
 
 public class oneplus implements smartphone
