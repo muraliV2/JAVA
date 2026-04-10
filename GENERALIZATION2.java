@@ -1,5 +1,4 @@
 package smartphone;
-
 public interface smartphone 
 {
 public void model();
