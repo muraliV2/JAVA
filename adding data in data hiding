@@ -1,6 +1,5 @@
 package datahidingmarks;
 public class students 
-
 {
 private String name;
 private int marks;
