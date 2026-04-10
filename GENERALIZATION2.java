@@ -21,8 +21,6 @@ public void batterylife()
 	System.out.println("20 hours");
 }
 }
-
-
 package smartphone;
 
 public class iphone implements smartphone
