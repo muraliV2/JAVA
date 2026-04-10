@@ -44,8 +44,6 @@ System.out.println(s2.getx());
 System.out.println(s2.getx1());
 System.out.println(s3.getx());
 System.out.println(s3.getx1());
-
-
 s1.setx1(s1.getx1() + 10);
 s2.setx1(s2.getx1() + 10);
 s3.setx1(s3.getx1() + 10);
