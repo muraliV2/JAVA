@@ -27,7 +27,6 @@ else
 	System.out.println(sum);
 	System.out.println("it is a not perfect number");
 }
-
 }
 
 }
