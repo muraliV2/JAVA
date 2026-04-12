@@ -1,5 +1,4 @@
 package stack;
-
 import java.util.Collections;
 import java.util.Stack;
 
