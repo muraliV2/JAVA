@@ -29,7 +29,6 @@ public ShitDinnerException(String message)
 super(message);	
 }
 }
-
 package dinner;
 
 public class YummyDinnerException extends RuntimeException
