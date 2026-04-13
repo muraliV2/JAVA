@@ -17,7 +17,6 @@ else
 {
 	System.out.println("dinner" +dinner);
 throw new ShitDinnerException("parotta");
-
 }
 }
 }
