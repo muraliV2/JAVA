@@ -20,7 +20,6 @@ throw new ShitDinnerException("parotta");
 }
 }
 }
-
 package dinner;
 
 public class ShitDinnerException extends  RuntimeException
