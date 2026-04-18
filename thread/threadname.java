@@ -1,5 +1,4 @@
 package thread;
-
 public class getandset implements Runnable
 {
 public void run()
