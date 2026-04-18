@@ -8,7 +8,6 @@ int a = 10;
 Integer num = a;
 System.out.println(a);
 System.out.println("auto unboxing");
-
 Double num1 = 10.56;
 double b = num1;
 System.out.println(b);
