@@ -10,8 +10,6 @@ Scanner scn = new Scanner(System.in);
 Random rand = new Random();
 int compchoice = rand.nextInt(6)+1;
 int guess = 0;
-
-
 while(guess !=compchoice)	
 {
 	System.out.println("guess number between 1 to 6 dicerolls");
