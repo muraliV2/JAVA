@@ -1,10 +1,8 @@
 package generalization;
 public class clashroyale  extends games{
-
 	@Override
 	public void name() {
-		System.out.println("clash royale");
-		
+		System.out.println("clash royale");		
 	}
 
 	@Override
