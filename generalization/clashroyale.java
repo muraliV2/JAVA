@@ -1,5 +1,4 @@
 package generalization;
-
 public class clashroyale  extends games{
 
 	@Override
