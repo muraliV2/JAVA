@@ -4,7 +4,6 @@ public class clashroyale  extends games{
 	public void name() {
 		System.out.println("clash royale");		
 	}
-
 	@Override
 	public void noobplayers() {
 		System.out.println("2v2");
