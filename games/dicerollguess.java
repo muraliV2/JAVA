@@ -24,7 +24,7 @@ guess = scn.nextInt();
 	}
 	else
 	{
-		System.out.println("your guess is low");
+	System.out.println("your guess is low");
 	}
 }
 scn.close();
