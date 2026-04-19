@@ -28,6 +28,6 @@ else
 {
 System.out.println("your predicted number is low try again");	
 }
-	}
+}
 }
 }
