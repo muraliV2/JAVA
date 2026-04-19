@@ -1,5 +1,4 @@
 package generalization;
-
 public class help 
 {
 public void get(games g)
