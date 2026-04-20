@@ -7,9 +7,7 @@ public class frch
 {
 public static void main(String [] main)
 {
-
-	
-	List<Integer> lis = Arrays.asList(1,2,3,4,5);
+List<Integer> lis = Arrays.asList(1,2,3,4,5);
 	
 	Consumer<Integer> con = (Integer t) -> {
 			System.out.println(t);
