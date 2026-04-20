@@ -9,13 +9,7 @@ public static void main(String [] main)
 {
 //	List<Integer> li = Arrays.asList(1,2,3,4,5);
 //	
-//	Consumer<Integer> con = (Integer n) ->
-//	{
-//		
-//		System.out.println(n);
-//	};
-//	li.forEach(con);
-	
+
 	
 	List<Integer> lis = Arrays.asList(1,2,3,4,5);
 	
