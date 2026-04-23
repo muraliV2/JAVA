@@ -6,7 +6,6 @@ public class a implements Serializable
 transient  String name;
 String dept;
 int rollno;
-
 public a (String name,String dept,int rollno)
 {
 this.name = name;
@@ -17,7 +16,7 @@ this.rollno = rollno;
 
 
 
-
+// transient keyword is used to send data anonymously
 
 
 
