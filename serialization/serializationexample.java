@@ -9,8 +9,6 @@ String name = "prathish";
 String team = "mancheester city";
 }
 
-
-
 package serial12;
 import java.io.Serializable;
 import java.io.FileInputStream;
