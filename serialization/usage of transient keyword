@@ -17,6 +17,7 @@ this.rollno = rollno;
 
 
 // transient keyword is used to send data anonymously
+// if we use transient keyword thye data whill be hidden or null 
 
 
 
