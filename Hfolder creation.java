@@ -1,7 +1,6 @@
 package filehandling;
 import java.util.*;
 import java.io.File;
-
 public class foldercreation 
 {
 public static void main(String [] args)
