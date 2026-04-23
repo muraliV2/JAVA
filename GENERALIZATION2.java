@@ -39,7 +39,6 @@ public class iphone implements smartphone
 	}
 	}
 package smartphone;
-
 public class oneplus implements smartphone
 {
 	public void model()
