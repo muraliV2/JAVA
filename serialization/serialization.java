@@ -10,7 +10,6 @@ public class main
 public static void main(String [] args) throws Exception
 {
 a a1 = new a("murali","ECE",20017);
-
 FileOutputStream f = new FileOutputStream("C:\\Users\\mural\\OneDrive\\Desktop\\lo\\java\\gigi.ser");
 ObjectOutputStream oos = new ObjectOutputStream(f);
 oos.writeObject(a1);
