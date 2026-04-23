@@ -16,7 +16,6 @@ ObjectOutputStream oos = new ObjectOutputStream(f);
 oos.writeObject(a1);
 oos.writeObject(a3);
 System.out.println("serilization done");
-
 FileInputStream fis = new FileInputStream("C:\\Users\\mural\\OneDrive\\Desktop\\lo\\java\\gigi.ser");
 ObjectInputStream ois = new ObjectInputStream(fis);
  a a2 = (a)ois.readObject();
