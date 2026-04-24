@@ -7,7 +7,6 @@ public class efootball  extends games
 		System.out.println("efootball");
 		
 	}
-
 	@Override
 	public void noofplayers() {
 		System.out.println("1v1");
