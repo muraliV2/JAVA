@@ -2,7 +2,6 @@ package generalization;
 
 public class efootball  extends games
 {
-
 	@Override
 	public void name() {
 		System.out.println("efootball");
