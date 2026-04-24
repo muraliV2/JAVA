@@ -10,8 +10,7 @@ public class efootball  extends games
 	@Override
 	public void noofplayers() {
 		System.out.println("1v1");
-		
-	}
+			}
 
 	@Override
 	public void famousplay() {
