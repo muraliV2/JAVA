@@ -4,8 +4,7 @@ public class coc extends games{
 
 	@Override
 	public void name() {
-		System.out.println("clash of clans");
-		
+ 		System.out.println("clash of clans");		
 	}
 	@Override
 	public void noobplayers() {
