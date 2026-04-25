@@ -1,5 +1,4 @@
 package generalization;
-
 public class coc extends games{
 	@Override
 	public void name() {
