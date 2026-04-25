@@ -7,7 +7,6 @@ public class coc extends games{
 		System.out.println("clash of clans");
 		
 	}
-
 	@Override
 	public void noobplayers() {
 		System.out.println("1v100");
