@@ -3,8 +3,7 @@ public class efootball  extends games
 {
 	@Override
 	public void name() {
-		System.out.println("efootball");
-		
+		System.out.println("efootball");		
 	}
 	@Override
 	public void noofplayers() {
