@@ -10,7 +10,6 @@ public class coc extends games{
 	public void noobplayers() {
 		System.out.println("1v100");
 		}
-
 	@Override
 	public void famousplay() {
 		System.out.println("murali");
