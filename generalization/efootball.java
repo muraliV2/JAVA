@@ -1,5 +1,4 @@
 package generalization;
-
 public class efootball  extends games
 {
 	@Override
