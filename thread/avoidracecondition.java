@@ -14,7 +14,6 @@ for(int i =1;i<=1000;i++)
 }
 
 }
-
 public static void main(String [] args) throws InterruptedException
 {
 	racecondition r1 = new racecondition();
