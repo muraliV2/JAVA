@@ -8,7 +8,6 @@ public class getandset1 implements Runnable
         Thread.currentThread().setPriority(4);
         System.out.println("Priority after change (child thread): " + Thread.currentThread().getPriority());
     }
-
     public static void main(String[] args)
     {
         System.out.println("Default main thread priority: " + Thread.currentThread().getPriority());
