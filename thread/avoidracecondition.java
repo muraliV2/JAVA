@@ -12,7 +12,6 @@ for(int i =1;i<=1000;i++)
 {
 	racecondition.increment();
 }
-
 }
 public static void main(String [] args) throws InterruptedException
 {
