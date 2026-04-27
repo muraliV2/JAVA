@@ -1,5 +1,4 @@
 package serial12;
-
 import java.io.Serializable;
 public class a  implements Serializable
 {
