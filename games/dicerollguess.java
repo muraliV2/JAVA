@@ -20,7 +20,7 @@ guess = scn.nextInt();
 	}
 	else if(guess>compchoice)
 	{
-		System.out.println("your guess is high");
+		System.out.println("your guess is very high");
 	}
 	else
 	{
