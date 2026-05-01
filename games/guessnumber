@@ -16,7 +16,7 @@ System.out.println("guess the number between  1 to 10");
  guess = scn.nextInt();
 if(guess == compno)
 {
-System.out.println("you guess the correct no : " +guess);	
+System.out.println("you guess the correct no  : " +guess);	
 }
 else if (guess>compno) 
 {
