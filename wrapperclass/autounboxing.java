@@ -13,4 +13,4 @@ System.out.println(b);
 }
 }
 when a wrapper object’s value is converted back into  a primitive type.
-When the compiler does it automatically, it’s called auto-unboxing.
+and the compiler does it automatically, it’s called auto-unboxing.
