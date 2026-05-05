@@ -7,7 +7,6 @@ public static void main(String [] args)
 String str = "98";
 int num3 = Integer.parseInt(str);
 System.out.println(num3*3);
-
 }
 }
 converting string into primitive type 
