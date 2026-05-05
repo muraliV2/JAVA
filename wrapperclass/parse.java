@@ -3,7 +3,7 @@ public class autoboxing
 {
 public static void main(String [] args)
 {
-String str = "98";
+String str = "100";
 int num3 = Integer.parseInt(str);
 System.out.println(num3*3);
 }
