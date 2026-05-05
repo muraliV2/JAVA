@@ -15,7 +15,7 @@ while(guess !=compchoice)
 System.out.println("guess number between 1 to 6 dicerolls");
 guess = scn.nextInt();
 	if(guess == compchoice)
-	{
+{
 		System.out.println("your guess is correct  : " +guess);
 	}
 	else if(guess>compchoice)
