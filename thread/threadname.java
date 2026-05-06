@@ -4,7 +4,7 @@ public class getandset implements Runnable
 public void run()
 {
 System.out.println("id of the usd :" +Thread.currentThread().getName());	
-Thread.currentThread().setName("udt thread");
+Thread.currentThread().setName("this thread");
 System.out.println("id of the usd :" +Thread.currentThread().getName());	
 }
 public static void main(String [] args)
