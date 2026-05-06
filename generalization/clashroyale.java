@@ -8,7 +8,6 @@ public class clashroyale  extends games{
 	public void noobplayers() {
 		System.out.println("2v2");	
 	}
-
 	@Override
 	public void famousplay() {
 		System.out.println("prathish jod & sailesh jod");
