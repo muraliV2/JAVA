@@ -36,7 +36,5 @@ System.out.println(l.getname());
 System.out.println(l.getjerseyno());
 l.setname("florian wirtz");
 l.setjerseynumber(7);
-
-
 }
 }
