@@ -4,7 +4,6 @@ public class bike
 private String company ="himalayan";
 private int cc =411;
 private int topspeed = 140;
-
 public String getcompany()
 {
 	return company;
