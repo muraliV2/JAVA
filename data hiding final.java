@@ -47,7 +47,5 @@ System.out.println("after reinitiliza data hiding");
 System.out.println(b.getcompany());
 System.out.println(b.getcc());
 System.out.println(b.gettopspeed());
-
-
 }
 }
