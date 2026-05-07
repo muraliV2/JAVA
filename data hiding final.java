@@ -27,7 +27,6 @@ this.cc = cc;
 public void settopspeed(int topspeed)
 {
 this.topspeed = topspeed;
-
 }
 package bikr;
 
