@@ -30,7 +30,6 @@ this.topspeed = topspeed;
 }
 
 }
-
 package bikr;
 
 public class main 
