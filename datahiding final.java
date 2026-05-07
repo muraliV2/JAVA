@@ -1,5 +1,4 @@
 package hidingconst;
-
 public class liverpool 
 {
 private String name;
