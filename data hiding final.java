@@ -1,5 +1,4 @@
 package bikr;
-
 public class bike 
 {
 private String company ="himalayan";
