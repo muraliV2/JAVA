@@ -12,7 +12,6 @@ System.out.println("enter choice");
 String my = scn.next() .toLowerCase();
 String comp = choice[rand.nextInt(3)];
 boolean play = false;
-
 if(my.equals(comp))
 {
 	System.out.println("tie"+my);
