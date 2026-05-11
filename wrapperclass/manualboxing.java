@@ -9,4 +9,4 @@ Integer er = Integer.valueOf(qw);
 System.out.println(er);
 }
 }
-the process of changing primitive data into an object class manually is calles manualboxing
+the process of changing primitive data into  object class manually is calles manualboxing
