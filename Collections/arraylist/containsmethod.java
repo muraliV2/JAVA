@@ -17,7 +17,6 @@ System.out.println("ronaldo is on the lsit");
 }
 else
 {
-	
 System.out.println("not on the list");}
 }
 }
