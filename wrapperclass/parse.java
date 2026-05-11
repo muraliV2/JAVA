@@ -9,4 +9,4 @@ System.out.println(num3*4);
 }
 }
 converting string into primitive type 
-i make the string value 98 into  primitive int type
+i make the string value 98 into  the primitive int type
