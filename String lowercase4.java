@@ -1,5 +1,4 @@
 package str;
-
 import java.util.Scanner;
 public class str 
 
