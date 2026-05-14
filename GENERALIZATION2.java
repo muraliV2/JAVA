@@ -108,8 +108,6 @@ else
 }
 }
 }
-
-
 package smartphone;
 import java.util.Scanner;
 public class mainmethod 
