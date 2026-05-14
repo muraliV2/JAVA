@@ -72,8 +72,6 @@ public class mi implements smartphone
 		System.out.println("12 hours");
 	}
 	}
-
-
 package smartphone;
 
 public class help 
