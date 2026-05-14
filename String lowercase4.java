@@ -9,8 +9,6 @@ public static void main(String [] args)
 System.out.println("enter string");
 String s1 =scn.next();
 char ch = ' ';
-
-
 for(int i =0;i<=s1.length()-1;i++)
 {
 ch = s1.charAt(i);
