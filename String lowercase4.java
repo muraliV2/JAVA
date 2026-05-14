@@ -12,7 +12,6 @@ char ch = ' ';
 for(int i =0;i<=s1.length()-1;i++)
 {
 ch = s1.charAt(i);
-
 if(ch>='a' && ch<='z')
 {
 	System.out.println(ch);	
