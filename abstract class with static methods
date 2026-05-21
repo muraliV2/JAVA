@@ -14,11 +14,6 @@ public static void volume()
 System.out.println("volume up/down");
 }
 abstract public  void record();
-
-
-
-
-
 }
 
 
