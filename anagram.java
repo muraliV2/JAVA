@@ -10,7 +10,6 @@ public class str
 
         System.out.println("Enter 1st string:");
         String s1 = scn.next();
-
         System.out.println("Enter 2nd string:");
         String s2 = scn.next();
 
