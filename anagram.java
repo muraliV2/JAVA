@@ -13,7 +13,6 @@ public class str
         System.out.println("Enter 2nd string:");
         String s2 = scn.next();
 
-        // Convert to lowercase and remove spaces (Must reassign)
         s1 = s1.toLowerCase().replaceAll("\\s", "");
         s2 = s2.toLowerCase().replaceAll("\\s", "");
 
