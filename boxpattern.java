@@ -1,5 +1,4 @@
 package patternproblems;
-
 public class boxpattern 
 {
 public static void main(String [] args)
