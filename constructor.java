@@ -12,7 +12,7 @@ this.name =a;
 this.regno =b;
 this.room =c;
 this.area = d;
-System.out.println("-----result----");
+System.out.println("-----results----");
 }
 }
 
