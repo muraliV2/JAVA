@@ -13,8 +13,6 @@ this.regno =b;
 this.room =c;
 this.area = d;
 System.out.println("-----result----");
-
-
 }
 }
 
