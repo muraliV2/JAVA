@@ -5,7 +5,6 @@ String name;
 int regno;
 String room;
 String area;
-
 public qw(String a,int b,String c,String d)
 {
 this.name =a;
