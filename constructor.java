@@ -39,7 +39,7 @@ class zx
 		
 		qw q = new qw(a,b,c,d);
 		
-		System.out.println("name =" +a);
+	System.out.println("name =" +a);
 System.out.println("regno =" +b);
 System.out.println("room =" +c);
 System.out.println("area =" +d);
