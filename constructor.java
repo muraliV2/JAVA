@@ -15,7 +15,6 @@ this.area = d;
 System.out.println("-----results----");
 }
 }
-
 class zx
 {
 	public static void main(String [] args)
