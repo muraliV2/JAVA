@@ -26,8 +26,7 @@ class zx
 		System.out.println("result");
 		
 		System.out.println("enter name");
-		String a = scn.next();
-		
+		String a = scn.next();	
 		System.out.println("enter regno");
 		int b = scn.nextInt(); 
 		
