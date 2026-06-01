@@ -10,10 +10,9 @@ public class doncarlo extends manager{
 
 	@Override
 	public void league() {
-		System.out.println("managing an national team");
+	System.out.println("managing an brazil National team");
 		
 	}
-
 	@Override
 	public void playstyle() {
 		System.out.println("quick counter + longball");
