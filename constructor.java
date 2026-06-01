@@ -34,8 +34,7 @@ class zx
 		System.out.println("enter area");
 		String d = scn.next();
 		
-		qw q = new qw(a,b,c,d);
-		
+		qw q = new qw(a,b,c,d);	
 System.out.println("name =" +a);
 System.out.println("regno =" +b);
 System.out.println("room =" +c);
