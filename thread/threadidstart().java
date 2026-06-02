@@ -1,5 +1,4 @@
 package thread;
-
 public class threadid implements Runnable
 {
 public void run()
