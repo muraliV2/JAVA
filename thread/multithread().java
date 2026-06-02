@@ -18,7 +18,6 @@ e.printStackTrace();
 System.out.println(i);
 }
 }
-
 public static void main(String [] args)
 {
 	slepp s1 = new slepp();
