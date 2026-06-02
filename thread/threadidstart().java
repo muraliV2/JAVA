@@ -3,7 +3,7 @@ public class threadid implements Runnable
 {
 public void run()
 {
-System.out.println("id of the usd :" +Thread.currentThread().getId());	
+System.out.println("the id of the usd :" +Thread.currentThread().getId());	
 }
 public static void main(String [] args)
 {
