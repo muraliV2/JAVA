@@ -22,7 +22,6 @@ public static void main(String [] args)
 {
 	slepp s1 = new slepp();
 	slepp s2 = new slepp();
-	
 //Thread t1 = new Thread(s1);
 s1.start();
 s2.start();
