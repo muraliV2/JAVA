@@ -5,7 +5,7 @@ public class foldercreation
 {
 public static void main(String [] args)
 {
-	File file = new File("path");
+	File file = new File("this is path");
 			boolean isCreated = file.mkdirs();
 			if(isCreated)
 			{
