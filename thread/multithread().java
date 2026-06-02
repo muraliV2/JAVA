@@ -1,5 +1,4 @@
 package thread;
-
 public class slepp extends Thread
 {
 public void run()
