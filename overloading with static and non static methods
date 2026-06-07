@@ -13,7 +13,7 @@ System.out.println(z);
 }
 public  void m1(int x,String y ,String z)
 {
-System.out.println("three arguements");
+System.out.println("it has three arguements");
 System.out.println(x);
 System.out.println(y);
 System.out.println(z);
