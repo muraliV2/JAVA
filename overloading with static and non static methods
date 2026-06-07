@@ -25,7 +25,7 @@ class tyu
 	{
 		w w1 = new w();
 		w.m1();
-		w.m1(10,"messi",10);
+		w.m1(10,"messi the goat",10);
 		w1.m1(7,"goat","ronaldo");
 		
 	}
