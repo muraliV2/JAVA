@@ -8,7 +8,7 @@ File messi = new File("C:\\Users\\mural\\OneDrive\\Desktop\\xx\\we\\dingi\\messi
 boolean b = messi.createNewFile();
 if(b)
 {
-System.out.println("file is created");	
+System.out.println("mp4 file is created");	
 }
 else
 {
